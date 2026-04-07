@@ -18,17 +18,6 @@ The writeups focus on:
 
 ---
 
-## Structure
-
-Each challenge is organized in a separate folder and includes:
-
-- Investigation summary
-- Key findings
-- Timeline of events
-- Relevant artifacts
-
----
-
 ## Purpose
 
 This repository serves as a portfolio of practical blue team skills and hands-on experience in security analysis.
