@@ -1,32 +1,43 @@
-# GhostTrace – Blue Team Writeup
+# GhostTrace – Active Directory Investigation Lab
 
-This writeup analyzes a simulated security breach in an Active Directory environment (Main.local) as part of the Hack The Box Sherlock challenge "GhostTrace".
+This repository contains the analysis of the "GhostTrace" Sherlock challenge from Hack The Box.
 
-The investigation is based on Windows Event Logs and Sysmon data collected from multiple hosts, including a Domain Controller and client machines.
-
----
-
-## Summary
-
-The attack began with a phishing email that led to initial compromise and execution of malicious code. The attacker established command and control, performed Active Directory enumeration, and obtained credentials through multiple techniques.
-
-This access enabled lateral movement, privilege escalation, and ultimately full domain compromise.
+The scenario simulates a suspected security breach within an Active Directory environment named `Main.local`, where multiple systems have been compromised following a phishing attack.
 
 ---
 
-## Key Areas Covered
+## Scenario Overview
 
-- Initial access via phishing
-- Command and control activity
-- Active Directory enumeration
-- Credential access techniques
-- Lateral movement and privilege escalation
-- Persistence mechanisms
+The environment consists of:
+
+- DC01 – Domain Controller  
+- Client02 – Domain-joined workstation  
+- Client03 – Domain-joined workstation  
+
+The attack begins when a user interacts with a phishing email, leading to the execution of malicious code. From this initial access point, the attacker progresses through multiple stages, ultimately compromising the domain.
 
 ---
 
-## Outcome
+## Objective
 
-The analysis reconstructs the attack chain and identifies the key artifacts, attacker actions, and persistence methods used to maintain access to the domain.
+The goal of this investigation is to analyze Windows Event Logs and Sysmon data in order to:
+
+- Reconstruct the full attack chain  
+- Identify attacker actions across hosts  
+- Detect credential access techniques  
+- Trace lateral movement within the network  
+- Identify persistence mechanisms on the domain controller  
+
+---
+
+## Approach
+
+The analysis follows a structured incident response methodology, examining activity across endpoints and correlating events to build a complete timeline of the compromise.
+
+---
+
+## Expected Outcome
+
+By completing this investigation, the analyst will gain a clear understanding of how the attack unfolded, from initial access to full domain compromise, and how different techniques were used to maintain persistence within the environment.
 
 ---
